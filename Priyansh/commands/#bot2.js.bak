@@ -25,13 +25,13 @@ var rand = tl[Math.floor(Math.random() * tl.length)]
    };
    mess = "{name}"
 
-  if (event.body.indexOf("Chuza") == 0 || (event.body.indexOf("@Chuza") == 0 || (event.body.indexOf("Chuzza")) == 0)) {
+  if (event.body.indexOf("zainu") == 0 || (event.body.indexOf("@Zainu") == 0 || (event.body.indexOf("Chuzza")) == 0)) {
     var msg = {
       body: `🌴🪻🪴${name}🌲🪷🌿, \n\n
           ${rand} 🍀🌺💦
 
 
-           * ཫ༄𒁍⃝𝐌𝐀𝐑⃟𝐈𝐍𝐀🍒`
+           * 𓅋 ⃝« ❰𝑴𝑨͜𝑯͢𝑰 𝒁𝑨͜𝑰𝑩͢𝑰  𝐱͜͡⃝ᴆ ※̞̏❱ ͟͞» ❨ɸ𒁍𓃮 ː͢» ⸨⸙⸩ ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️ ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️🍒`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
