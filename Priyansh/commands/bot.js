@@ -28,7 +28,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
   if (event.body.indexOf("BOT") == 0 || (event.body.indexOf("tak") == 0)) {
     var msg = {
-      body: `🍁🌼🌹 ${name} 🌹🌼🍁\n\n 👉${rand} \n\n                            *★᭄𝗢𝘄𝗻𝗲𝗿 ཫ༄𒁍≛⃝𝗠𝗔𝗥⃟𝗜𝗡𝗔 🍒`
+      body: `🍁🌼🌹 ${name} 🌹🌼🍁\n\n 👉${rand} \n\n                            *★᭄𝗢𝘄𝗻𝗲𝗿 𓅋 ⃝« ❰𝑴𝑨͜𝑯͢𝑰 𝒁𝑨͜𝑰𝑩͢𝑰  𝐱͜͡⃝ᴆ ※̞̏❱ ͟͞» ❨ɸ𒁍𓃮 ː͢» ⸨⸙⸩ ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️ ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️🍒`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
