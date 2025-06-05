@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("CAKE")==0 || event.body.indexOf("Cake")==0 || event.body.indexOf("cake")==0 || event.body.indexOf(".cake")==0) {
 		var msg = {
-				body: "💝 YE LO BBY CAKE KHAO 🎂\n\n(-𝐌𝐚𝐝𝐞 𝐁𝐲 🌹چـﹿٰٰٰٖٖٖٜ۬ﹿٰٰٖٖٜ۬ﹻۗـوزَۂ ❤👑🌹چـﹿٰٰٰٖٖٖٜ۬ﹿٰٰٖٖٜ۬ﹻۗـوزَیِ❤👑❤️-)",
+				body: "💝 YE LO BBY CAKE KHAO 🎂\n\n(-𝐌𝐚𝐝𝐞 𝐁𝐲 🌹★᭄𝗢𝘄𝗻𝗲𝗿 𓅋 ⃝« ❰𝑴𝑨͜𝑯͢𝑰 𝒁𝑨͜𝑰𝑩͢𝑰  𝐱͜͡⃝ᴆ ※̞̏❱ ͟͞» ❨ɸ𒁍𓃮 ː͢» ⸨⸙⸩ ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️ ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️❤️-)",
 				attachment: 
 fs.createReadStream(__dirname + `/cache/Cake.jpg`)
 			}
