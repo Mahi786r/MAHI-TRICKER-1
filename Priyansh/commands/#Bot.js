@@ -88,7 +88,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("💐🤘🤟  *★᭄𝗢𝘄𝗻𝗲𝗿 𓅋 ⃝« ❰𝑴𝑨͜𝑯͢𝑰 𝒁𝑨͜𝑰𝑩͢𝑰  𝐱͜͡⃝ᴆ ※̞̏❱ ͟͞» ❨ɸ𒁍𓃮 ː͢» ⸨⸙⸩ ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️ ️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️️🤘🤟💐", threadID);
    };
 
-   if ((event.body.toLowerCase() == "shadi karoge") || (event.body.toLowerCase() == "mujhse shadi karoge?")) {
+   if ((event.body.toLowerCase() == "shadi karoge") || (event.body.toLowerCase() == "shadi")) {
      return api.sendMessage("💐𝐇𝐚𝐧𝐣𝐢 𝐊𝐚𝐫𝐮𝐧𝐠𝐚 𝐍𝐚 𝐓𝐮𝐣𝐡𝐊𝐨 𝐇𝐢 𝐃𝐮𝐥𝐡𝐚𝐧 𝐁𝐚𝐧𝐚𝐮𝐧𝐠𝐚 𝐖𝐚𝐫𝐧𝐚 𝐤𝐚𝐰𝐚𝐫𝐚 𝐌𝐚𝐫 𝐉𝐚𝐮𝐧𝐠𝐚💐", threadID);
    };
 
@@ -144,7 +144,7 @@ if ((event.body.toLowerCase() == "mahi") || (event.body.toLowerCase() == "zaibi"
          return api.sendMessage("💐𝐓𝐢𝐫𝐜𝐡𝐢 𝐍𝐚𝐳𝐚𝐫𝐢𝐲𝐚 𝐌𝐨𝐑𝐢 𝐇𝐚𝐲𝐞 𝐇𝐚𝐘𝐞 𝐇𝐚𝐘𝐞💐", threadID);
        };
       
-   if ((event.body.toLowerCase() == "nobody loves me") || (event.body.toLowerCase() == "nobody love me") || (event.body.toLowerCase() == "koi pyar nhi karta")) {
+   if ((event.body.toLowerCase() == "nobody loves me") || (event.body.toLowerCase() == "love") || (event.body.toLowerCase() == "koi pyar nhi karta")) {
      return api.sendMessage("️💐𝐌𝐚𝐢 𝐇𝐮 𝐍𝐚 𝐛𝐚𝐛𝐲 𝐌𝐞𝐑𝐞 𝐏𝐚𝐬 𝐀𝐚𝐨 𝐌𝐚𝐢 𝐏𝐲𝐚𝐫 𝐊𝐚R𝐮𝐧𝐠𝐚💐", threadID);
    };
 
@@ -152,11 +152,11 @@ if ((event.body.toLowerCase() == "mahi") || (event.body.toLowerCase() == "zaibi"
      return api.sendMessage("💐𝐁𝐡𝐢𝐤𝐚𝐫𝐢 𝐁𝐚𝐧 𝐆𝐘𝐞 𝐊𝐲𝐚 𝐓𝐮𝐦 𝐒𝐢𝐫𝐏𝐞 𝐇𝐚𝐭𝐡 𝐐 𝐝𝐞 𝐑𝐚𝐤𝐤𝐡𝐚 𝐇 ?💐", threadID);
    };
 
-   if ((event.body.toLowerCase() == "kese ho") || (event.body.toLowerCase() == "kaise ho") || (event.body.toLowerCase() == "kese ho ji") || (event.body.toLowerCase() == "how are you") || (event.body.toLowerCase() == "kaisi ho")) {
+   if ((event.body.toLowerCase() == "ksy ho") || (event.body.toLowerCase() == "kaise ho") || (event.body.toLowerCase() == "kese ho ji") || (event.body.toLowerCase() == "how are you") || (event.body.toLowerCase() == "kaisi ho")) {
      return api.sendMessage("💐𝐌𝐚𝐢 𝐀𝐜𝐡𝐡𝐚 𝐇𝐮 𝐌𝐞𝐫𝐢 𝐉𝐚𝐚𝐧 𝐀𝐚𝐩 𝐛𝐭𝐚𝐨☺️💐", threadID);
    };
 
-   if ((event.body.toLowerCase() == "ka hua") || (event.body.toLowerCase() == "kya hua jii")) {
+   if ((event.body.toLowerCase() == "ka hua") || (event.body.toLowerCase() == "kya hwa")) {
      return api.sendMessage("💐𝐊𝐮𝐜𝐇 𝐌𝐚𝐭 𝐁𝐨𝐥𝐨 𝐀𝐚𝐣 𝐌𝐨𝐨𝐃 𝐎𝐟𝐟 𝐇𝐚𝐢 𝐌𝐮𝐉𝐇𝐬𝐞 𝐊𝐨𝐢 𝐁𝐚𝐚𝐭 𝐍𝐚𝐡𝐢 𝐤𝐚𝐫𝐓𝐚💐", threadID);
    };
 
