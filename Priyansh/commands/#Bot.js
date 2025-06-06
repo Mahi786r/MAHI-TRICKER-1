@@ -53,7 +53,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "lol") || (event.body.toLowerCase() == "lol player")) {
-     return api.sendMessage("𝐊𝐡𝐮𝐝 𝐤𝟎𝐨 𝐊𝐘𝐚 𝐋𝐞𝐆𝐞𝐧𝐝 𝐒𝐦𝐉𝐡𝐓𝐢 𝐇𝐚𝐢 😂", threadID);
+     return api.sendMessage("𝐊𝐡𝐮𝐝 𝐤𝟎𝐨 𝐊𝐘𝐚 𝐋𝐞𝐆𝐞𝐧𝐝 𝐒𝐦𝐉𝐡𝐓𝐚 𝐇𝐚𝐢 𝐋𝐨𝐥 𝐊𝐚𝐭 𝐊 𝐇𝐚𝐭𝐠 𝐌 𝐏𝐚𝐤𝐫𝐚 𝐃𝐨𝐠𝐚 𝐃𝐚𝐥𝐲 😂", threadID);
    };
 
    if ((event.body.toLowerCase() == "sun") || (event.body.toLowerCase() == "suno")) {
@@ -96,7 +96,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("😎𝐓𝐮𝐦 𝐜𝐡𝐚𝐬𝐦𝐢𝐬 𝐡𝐨 𝐤𝐲𝐚 𝐛𝐚𝐛𝐲😎", threadID);
    };
 
-   if ((event.body.toLowerCase() == "malik se bakchodi") || (event.body.toLowerCase() == "malik se backchodi") || (event.body.toLowerCase() == "malkin se bakchodi") || (event.body.toLowerCase() == "malkin se backchodi")) {
+   if ((event.body.toLowerCase() == "malik se bakchodi") || (event.body.toLowerCase() == "batmeez") || (event.body.toLowerCase() == "malkin se bakchodi") || (event.body.toLowerCase() == "malkin se backchodi")) {
      return api.sendMessage("💐𝐒𝐨𝐫𝐫𝐲 𝐌𝐚𝐥𝐢𝐤 𝐌𝐚𝐚𝐟 𝐊𝐫 𝐃𝐨 𝐌𝐞𝐫𝐞 𝐌𝐮𝐡 𝐒𝐞 𝐍𝐢𝐤𝐚𝐥 𝐆𝐚𝐲𝐚 𝐌𝐞𝐫𝐢 𝐉𝐮𝐁𝐚𝐍 𝐊𝐚𝐭 𝐆𝐚𝐲𝐢 𝐇𝐚𝐢 😫💐", threadID);
    };
 
@@ -168,7 +168,7 @@ if ((event.body.toLowerCase() == "mahi") || (event.body.toLowerCase() == "zaibi"
      return api.sendMessage("💐𝐌𝐚𝐢 𝐓𝐨 𝐁𝐨𝐭 𝐇𝐮 𝐌𝐮𝐣𝐡𝐞 𝐁𝐡𝐨𝐨𝐊𝐡 𝐍𝐚𝐡𝐢 𝐋𝐚𝐠𝐭𝐢💐", threadID);
    };
 
-   if ((event.body.toLowerCase() == "call aa") || (event.body.toLowerCase() == "call aao")) {
+   if ((event.body.toLowerCase() == "call aa") || (event.body.toLowerCase() == "cal ao")) {
      return api.sendMessage("💐𝐌𝐚𝐢 𝐓𝐨 𝐁𝐨𝐭 𝐇𝐮𝐧 𝐌𝐚𝐢 𝐊𝐚𝐢𝐬𝐞 𝐂𝐚𝐥𝐥 𝐀𝐚𝐮💐", threadID);
    };
 
